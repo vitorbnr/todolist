@@ -10,7 +10,6 @@
   <img src="https://img.shields.io/badge/Spring_Boot-3.3.1-6DB33F?style=for-the-badge&logo=springboot" alt="Spring Boot Version" />
   <img src="https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk" alt="Java Version" />
   <img src="https://img.shields.io/badge/Database-MySQL-blue?style=for-the-badge&logo=mysql" alt="Database" />
-  <img src="https://img.shields.io/badge/Status-Concluído-blue?style=for-the-badge" alt="Status" />
 </p>
 
 ---
