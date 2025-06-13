@@ -128,8 +128,7 @@ Lá, você poderá visualizar todos os endpoints, seus parâmetros, e até mesmo
 🕹️ Exemplos de Uso (Postman)
 Aqui estão exemplos de como interagir com a API usando uma ferramenta como o Postman.
 
-&lt;details>
-&lt;summary>&lt;strong>POST /todos - Criar uma nova tarefa&lt;/strong>&lt;/summary>
+POST /todos - Criar uma nova tarefa
 
 Método: POST
 URL: http://localhost:8080/todos
@@ -144,10 +143,8 @@ Body (raw/JSON):
 }
 
 Resposta de Sucesso (Status 201 Created): Uma lista atualizada de todas as tarefas.
-&lt;/details>
 
-&lt;details>
-&lt;summary>&lt;strong>GET /todos - Listar todas as tarefas&lt;/strong>&lt;/summary>
+GET /todos - Listar todas as tarefas
 
 Método: GET
 URL: http://localhost:8080/todos
@@ -169,4 +166,27 @@ Resposta de Sucesso (Status 200 OK):
         "prioridade": 2
     }
 ]
+
+
+PUT /todos/{id} - Atualizar uma tarefa existente
+
+Método: PUT
+URL: http://localhost:8080/todos/1 (para atualizar a tarefa com id 1)
+Headers: Content-Type: application/json
+Body (raw/JSON):
+
+{
+    "nome": "Comprar pão e leite",
+    "descricao": "Ir à padaria da esquina antes das 18h",
+    "realizado": true,
+    "prioridade": 1
+}
+
+Resposta de Sucesso (Status 200 OK): Uma lista atualizada de todas as tarefas.
+
+DELETE /todos/{id} - Deletar uma tarefa
+
+Método: DELETE
+URL: http://localhost:8080/todos/1
+Resposta de Sucesso (Status 200 OK): Uma lista com as tarefas restantes.
 
