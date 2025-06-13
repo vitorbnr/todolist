@@ -64,7 +64,7 @@ Siga os passos abaixo para executar o projeto na sua máquina local.
 
 1.  **Clone o repositório:**
     ```sh
-    git clone https://github.com/seu-usuario/todolist.git
+    git clone https://github.com/vitorbnr/todolist.git
     cd todolist
     ```
 
